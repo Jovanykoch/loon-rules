@@ -1,0 +1,119 @@
+# 国内直连域名规则集
+# 这些域名和IP段将直连，不走代理
+
+# ========== 国内知名网站 ==========
+# 腾讯系
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,tencent.com
+DOMAIN-SUFFIX,qzone.qq.com
+DOMAIN-KEYWORD,wechat
+DOMAIN-KEYWORD,weixin
+DOMAIN,qihu.com
+
+# 阿里巴巴系
+DOMAIN-SUFFIX,alibaba.com
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,taobao.com
+DOMAIN-SUFFIX,tmall.com
+DOMAIN-KEYWORD,aliyun
+
+# 百度系
+DOMAIN-SUFFIX,baidu.com
+DOMAIN-SUFFIX,baidubce.com
+DOMAIN-KEYWORD,baidu
+
+# 新浪系
+DOMAIN-SUFFIX,sina.com.cn
+DOMAIN-SUFFIX,weibo.com
+DOMAIN-KEYWORD,sina
+
+# ========== 流媒体/视频 ==========
+DOMAIN-SUFFIX,qq.com
+DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,tudou.com
+DOMAIN-SUFFIX,acfun.tv
+DOMAIN-SUFFIX,bilibili.com
+DOMAIN-KEYWORD,bilibili
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,tiktok.com
+DOMAIN,huya.com
+DOMAIN,douyu.com
+DOMAIN,zhanqi.tv
+
+# ========== 支付/金融 ==========
+DOMAIN-SUFFIX,alipay.com
+DOMAIN-SUFFIX,jd.com
+DOMAIN-SUFFIX,bank.com
+DOMAIN-KEYWORD,icbc
+DOMAIN-KEYWORD,ccb
+DOMAIN,chinabank.com.cn
+
+# ========== 社交/工作 ==========
+DOMAIN-SUFFIX,zhihu.com
+DOMAIN-SUFFIX,douban.com
+DOMAIN-SUFFIX,little.red.book
+DOMAIN,xiaohongshu.com
+DOMAIN,dingding.com
+DOMAIN-KEYWORD,dingtalk
+
+# ========== 其他常见国内站点 ==========
+DOMAIN-SUFFIX,163.com
+DOMAIN-SUFFIX,126.com
+DOMAIN-SUFFIX,netease.com
+DOMAIN-SUFFIX,csdn.net
+DOMAIN-SUFFIX,oschina.net
+DOMAIN-SUFFIX,cnblogs.com
+DOMAIN-SUFFIX,csdnimg.cn
+DOMAIN-SUFFIX,jianshu.com
+DOMAIN-SUFFIX,segmentfault.com
+DOMAIN-SUFFIX,36kr.com
+DOMAIN-SUFFIX,huxiu.com
+DOMAIN-SUFFIX,ifeng.com
+DOMAIN-SUFFIX,sohu.com
+DOMAIN-SUFFIX,sohucs.com
+DOMAIN-SUFFIX,phoenixlzh.com
+
+# ========== 国内 ISP/DNS ==========
+# 电信
+DOMAIN-SUFFIX,cernet.com
+DOMAIN-SUFFIX,chinanet.com
+# 联通
+DOMAIN-SUFFIX,chinaunicom.com
+DOMAIN-SUFFIX,10010.com
+# 移动
+DOMAIN-SUFFIX,chinamobile.com
+DOMAIN-SUFFIX,10086.cn
+
+# ========== 国内 CDN 节点 ==========
+DOMAIN-SUFFIX,alicdn.com
+DOMAIN-SUFFIX,qnssl.com
+DOMAIN-SUFFIX,qiniudn.com
+DOMAIN-SUFFIX,jcloudcs.com
+
+# ========== 国内政府/机关 ==========
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,ac.cn
+DOMAIN-SUFFIX,beijing.gov.cn
+
+# ========== 中国大陆 IP 段 ==========
+# 这些 IP 段属于中国大陆运营商
+IP-CIDR,1.0.1.0/24
+IP-CIDR,1.0.2.0/23
+IP-CIDR,1.0.8.0/21
+IP-CIDR,1.1.1.0/24
+IP-CIDR,1.2.2.0/24
+IP-CIDR,1.9.6.0/23
+IP-CIDR,1.9.8.0/21
+IP-CIDR,1.9.16.0/20
+IP-CIDR,1.9.32.0/19
+IP-CIDR,1.9.64.0/18
+IP-CIDR,1.11.0.0/16
+
+# 常用国内 DNS
+IP-CIDR,114.114.114.114/32
+IP-CIDR,223.5.5.5/32
+IP-CIDR,223.6.6.6/32
+
+# 添加更多 IP 段...（可根据需要扩展）
