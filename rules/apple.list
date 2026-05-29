@@ -1,0 +1,51 @@
+# Apple services optimization rules
+# Apple services should generally connect directly for best experience
+
+# ========== Apple Official Services ==========
+DOMAIN-SUFFIX,apple.com
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,appstore.com
+DOMAIN-SUFFIX,mzstatic.com
+
+# ========== App Store ==========
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,apps-apple.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,cdn-apple.com
+
+# ========== iTunes/Music ==========
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,lookup-api.apple.com
+
+# ========== iCloud/Photos ==========
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,p2-icloud.com
+DOMAIN-SUFFIX,iclouddrive.com
+
+# ========== Apple Maps ==========
+DOMAIN-SUFFIX,maps.apple.com
+
+# ========== Siri/Assistant ==========
+DOMAIN-SUFFIX,siri.apple.com
+
+# ========== News/Books ==========
+DOMAIN-SUFFIX,news.apple.com
+DOMAIN-SUFFIX,books.apple.com
+
+# ========== TV/Fitness ==========
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,fitness.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+
+# ========== Developer ==========
+DOMAIN-SUFFIX,developer.apple.com
+
+# ========== Authentication ==========
+DOMAIN-SUFFIX,appleid.apple.com
+DOMAIN-SUFFIX,idmsa.apple.com
+
+# ========== Other Services ==========
+DOMAIN-SUFFIX,applemusic.com
+DOMAIN-SUFFIX,appletvplus.com
