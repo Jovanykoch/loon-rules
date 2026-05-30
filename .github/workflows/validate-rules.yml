@@ -14,6 +14,9 @@ on:
       - 'scripts/validate_rules.py'
       - '.github/workflows/validate-rules.yml'
 
+permissions:
+  contents: read
+
 jobs:
   validate-rules:
     runs-on: ubuntu-latest
