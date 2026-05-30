@@ -11,6 +11,7 @@ A comprehensive rule set repository for Loon proxy tool, supporting both oversea
 - **Blocking Rules** (`reject.list`) - Block ads, trackers, and malicious websites
 - **Apple Optimization** (`apple.list`) - Apple services optimization
 - **Domestic Media** (`media-cn.list`) - Domestic streaming platforms and media services
+- **CI Validation** - Automatically verifies rule file format on pull requests and pushes
 
 ### Use Cases
 
