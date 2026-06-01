@@ -1,1 +1,2 @@
 DOMAIN-SUFFIX, jjc.edu
+DOMAIN-SUFFIX,csun.edu
