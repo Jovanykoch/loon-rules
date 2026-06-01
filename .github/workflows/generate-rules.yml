@@ -1,0 +1,29 @@
+name: Generate Rules
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Generate Rules
+        run: python scripts/generate_rules.py
+
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v7
+        with:
+          branch: auto/update-rules
+          title: "Auto Update Rules"
+          commit-message: "Auto Update Rules"
