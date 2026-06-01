@@ -1,1 +1,1 @@
-jjc.edu
+DOMAIN-SUFFIX, jjc.edu
