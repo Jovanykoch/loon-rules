@@ -2,17 +2,7 @@ name: Validate Rules
 
 on:
   pull_request:
-    paths:
-      - 'rules/*.list'
-      - 'scripts/validate_rules.py'
-      - '.github/workflows/validate-rules.yml'
   push:
-    branches:
-      - main
-    paths:
-      - 'rules/*.list'
-      - 'scripts/validate_rules.py'
-      - '.github/workflows/validate-rules.yml'
 
 permissions:
   contents: read
@@ -20,14 +10,12 @@ permissions:
 jobs:
   validate-rules:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
+          python-version: "3.11"
 
-      - name: Validate rule formats
-        run: python scripts/validate_rules.py
+      - run: python scripts/validate_rules.py
