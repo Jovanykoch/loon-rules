@@ -1,0 +1,4 @@
+# Domains rejected
+DOMAIN-SUFFIX,doubleclick.net
+DOMAIN-SUFFIX,googlesyndication.com
+DOMAIN-SUFFIX,adservice.google.com
