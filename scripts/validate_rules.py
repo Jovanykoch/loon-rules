@@ -1,77 +1,56 @@
-#!/usr/bin/env python3
-from __future__ import annotations
-
-import ipaddress
-import re
 from pathlib import Path
 
-RULES_DIR = Path(__file__).resolve().parent.parent / "rules"
-RULE_TYPES = {"DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "IP-CIDR", "GEOIP"}
-RULE_VALUE_RE = re.compile(r"^[^\s,]+$")
-GEOIP_RE = re.compile(r"^[A-Z]{2}$")
+RULE_DIR = Path("rules")
 
+ALLOWED_TYPES = {
+    "DOMAIN-SUFFIX",
+}
 
-def validate_rule(rule_type: str, rule_value: str) -> str | None:
-    if not rule_value:
-        return "rule value is empty"
+errors = []
 
-    if rule_type in {"DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD"}:
-        if not RULE_VALUE_RE.fullmatch(rule_value):
-            return f"invalid rule value: {rule_value}"
-        return None
+for rule_file in RULE_DIR.glob("*.list"):
 
-    if rule_type == "IP-CIDR":
-        try:
-            ipaddress.ip_network(rule_value, strict=False)
-        except ValueError:
-            return f"invalid CIDR: {rule_value}"
-        return None
+    seen = set()
 
-    if rule_type == "GEOIP":
-        if not GEOIP_RE.fullmatch(rule_value):
-            return f"invalid GEOIP country code: {rule_value}"
-        return None
+    for line_no, line in enumerate(
+        rule_file.read_text(
+            encoding="utf-8"
+        ).splitlines(),
+        start=1
+    ):
 
-    return f"unsupported rule type: {rule_type}"
+        line = line.strip()
 
+        if not line:
+            continue
 
-def main() -> int:
-    files = sorted(RULES_DIR.glob("*.list"))
-    if not files:
-        print(f"No .list files found in {RULES_DIR}")
-        return 1
+        if line in seen:
+            errors.append(
+                f"{rule_file}:{line_no} "
+                f"duplicate rule"
+            )
 
-    errors: list[str] = []
+        seen.add(line)
 
-    for file_path in files:
-        for line_no, raw_line in enumerate(file_path.read_text(encoding="utf-8", errors="ignore").splitlines(), start=1):
-            line = raw_line.strip()
-            if not line or line.startswith("#"):
-                continue
+        parts = line.split(",", 1)
 
-            if "," not in line:
-                if any(line == rule_type or line.startswith(f"{rule_type} ") for rule_type in RULE_TYPES):
-                    errors.append(f"{file_path}:{line_no}: missing comma separator")
-                continue
+        if len(parts) != 2:
+            errors.append(
+                f"{rule_file}:{line_no} "
+                f"invalid format"
+            )
+            continue
 
-            rule_type, rule_value = (part.strip() for part in line.split(",", 1))
-            if rule_type not in RULE_TYPES:
-                errors.append(f"{file_path}:{line_no}: unsupported rule type: {rule_type}")
-                continue
+        rule_type = parts[0]
 
-            validation_error = validate_rule(rule_type, rule_value)
-            if validation_error:
-                errors.append(f"{file_path}:{line_no}: {validation_error}")
+        if rule_type not in ALLOWED_TYPES:
+            errors.append(
+                f"{rule_file}:{line_no} "
+                f"unsupported type"
+            )
 
-    if errors:
-        print("Rule format validation failed:")
-        for error in errors:
-            print(f"- {error}")
-        return 1
+if errors:
+    print("\n".join(errors))
+    raise SystemExit(1)
 
-    print(f"All rule files are valid ({len(files)} files checked).")
-    return 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+print("All rules validated")
