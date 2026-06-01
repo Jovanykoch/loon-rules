@@ -1,0 +1,4 @@
+# Domains routed via proxy
+DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,youtube.com
+DOMAIN-SUFFIX,github.com
