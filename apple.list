@@ -2,10 +2,10 @@
 # AUTHOR: ChatGPT
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
-# DESC: 适配回国场景的 Apple 轻量规则集。仅保留国内访问/低延迟常用服务，不包含 Apple TV+/iCloud Private Relay 等偏海外服务。
-# NOTE: 规则集不绑定策略，请在主配置中通过 RULE-SET 指定策略。
-
+# DESC: Apple's lightweight rule set adapted to the scenario of returning to China. Only domestic access/low-latency commonly used services are retained, and overseas services such as Apple TV/iCloud Private Relay are not included.
+# NOTE: The rule set is not bound to a policy. Please specify the policy through RULE-SET in the main configuration.
 # Apple China / Mainland Entry
+
 DOMAIN-SUFFIX,apple.cn
 DOMAIN-SUFFIX,apple.com.cn
 DOMAIN-SUFFIX,icloud.com.cn
