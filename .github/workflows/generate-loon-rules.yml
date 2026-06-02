@@ -1,6 +1,6 @@
 - name: Generate Loon rules
-        shell: bash
-        run: |
+  shell: bash
+  run: |
           set -euo pipefail
           mkdir -p loon
 
