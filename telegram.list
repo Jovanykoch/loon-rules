@@ -2,8 +2,8 @@
 # AUTHOR: ChatGPT
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
-# DESC: Telegram 主规则集，优先使用 IP-CIDR / IP-CIDR6 / IP-ASN，少量域名用于登录、链接预览和前置匹配。
-# NOTE: 建议在主配置中使用 RULE-SET,telegram.list,Telegram,no-resolve。
+# DESC: Telegram main rule set, giving priority to IP-CIDR / IP-CIDR6 / IP-ASN, with a small number of domain names used for login, link preview and pre-matching.
+# NOTE: It is recommended to use R in the main configuration ULE-SET,telegram.list,Telegram,no-resolve。
 
 # Telegram Domains
 DOMAIN-SUFFIX,telegram.org
