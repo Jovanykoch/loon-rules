@@ -140,10 +140,11 @@ jobs:
             'huggingface.co' \
             'replicate.com' \
             > /tmp/conflict-allowlist.txt
+  
+          normalize_custom ai.txt > /tmp/ai.norm
+          normalize_custom dev.txt > /tmp/dev.norm
+          normalize_custom edu.txt > /tmp/edu.norm
 
-          normalize_custom rules/ai.txt > /tmp/ai.norm
-          normalize_custom rules/dev.txt > /tmp/dev.norm
-          normalize_custom rules/edu.txt > /tmp/edu.norm
 
           compare_conflict() {
             local left="$1"
