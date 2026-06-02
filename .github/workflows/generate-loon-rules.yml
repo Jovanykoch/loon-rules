@@ -1,4 +1,4 @@
-- name: Generate Loon rules
+  name: Generate Loon rules
   shell: bash
   run: |
           set -euo pipefail
