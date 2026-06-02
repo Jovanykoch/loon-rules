@@ -2,8 +2,8 @@
 # AUTHOR: ChatGPT
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
-# DESC: 主流 AI 服务聚合规则集。适合绑定到 AI/Proxy 策略组，避免被 CN/GEOIP 兜底误分流。
-# NOTE: 规则集不绑定策略，请在主配置中通过 RULE-SET 指定策略。
+# DESC: Mainstream AI service aggregation rule sets. Suitable for binding to AI/Proxy policy group to avoid being mistakenly diverted by CN/GEOIP.
+# NOTE: The rule set is not bound to a policy. Please specify the policy through RULE-SET in the main configuration.
 
 # OpenAI / ChatGPT
 DOMAIN-SUFFIX,openai.com
