@@ -1,5 +1,5 @@
-# NAME: Apple BackToCN Lite
-# AUTHOR: ChatGPT
+# NAME: Apple Lite
+# AUTHOR: JovanyKoch
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
 # DESC: Apple's lightweight rule set adapted to the scenario of returning to China. Only domestic access/low-latency commonly used services are retained, and overseas services such as Apple TV/iCloud Private Relay are not included.
