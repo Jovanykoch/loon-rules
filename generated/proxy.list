@@ -1,6 +1,6 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 06:39:02 UTC
+# UPDATED: 2026-06-03 07:26:08 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -19,6 +19,7 @@ DOMAIN,ios.chat.openai.com
 DOMAIN,www.bing.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,hotmail
+DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,account.activedirectory.
 DOMAIN-SUFFIX,ai.google.dev

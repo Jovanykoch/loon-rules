@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 06:39:02 UTC
+# UPDATED: 2026-06-03 07:26:08 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -63,6 +63,7 @@ DOMAIN-KEYWORD,iadmusic
 DOMAIN-KEYWORD,mobads
 DOMAIN-KEYWORD,pangolin
 DOMAIN-KEYWORD,pglstatp
+DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,telemetry
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,umeng
