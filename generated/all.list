@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 06:33:01 UTC
+# UPDATED: 2026-06-03 06:39:02 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -66,6 +66,7 @@ DOMAIN-KEYWORD,pglstatp
 DOMAIN-KEYWORD,telemetry
 DOMAIN-KEYWORD,tracking
 DOMAIN-KEYWORD,umeng
+DOMAIN-KEYWORD,youtube
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,10086.com
