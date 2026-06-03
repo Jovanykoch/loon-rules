@@ -1,6 +1,6 @@
 # Surge cn.list for Back-to-China routing
 # Generated: 2026-06-03
-#
+# AUTHOR: JovanyKoch
 # Usage in [Rule]:
 # RULE-SET,https://example.com/cn.list,BackToCN
 # or local:
