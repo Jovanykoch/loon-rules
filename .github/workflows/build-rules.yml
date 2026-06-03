@@ -1,0 +1,93 @@
+name: Build Surge Rules
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "*.list"
+      - ".github/workflows/build-rules.yml"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    name: Build Generated Rule Files
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository files
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Generate categorized rule files
+      - name: Generate categorized rules
+        shell: bash
+        run: |
+          set -e
+
+          # Prepare output directory
+          mkdir -p generated
+
+          # Generate a rule file from source files
+          generate_rule_file() {
+            output_file="$1"
+            shift
+
+            {
+              echo "# NAME: $(basename "$output_file")"
+              echo "# AUTHOR: Jovanykoch"
+              echo "# UPDATED: $(date -u +"%Y-%m-%d %H:%M:%S UTC")"
+              echo "# SOURCE: https://github.com/Jovanykoch/surge-list"
+              echo ""
+            } > "$output_file"
+
+            for source_file in "$@"; do
+              if [ -f "$source_file" ]; then
+                cat "$source_file"
+              fi
+            done \
+              | grep -vE '^\s*$|^\s*#|^\s*//' \
+              | sort -u \
+              >> "$output_file"
+          }
+
+          # DIRECT rules
+          generate_rule_file \
+            generated/direct.list \
+            apple.list \
+            cn.list
+
+          # PROXY rules
+          generate_rule_file \
+            generated/proxy.list \
+            ai.list \
+            proxy.list \
+            telegram.list \
+            work.list
+
+          # REJECT rules
+          generate_rule_file \
+            generated/reject.list \
+            reject.list
+
+          # ALL rules
+          generate_rule_file \
+            generated/all.list \
+            ai.list \
+            apple.list \
+            cn.list \
+            proxy.list \
+            reject.list \
+            telegram.list \
+            work.list
+
+      # Commit generated files if changed
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Build generated Surge rules"
+          file_pattern: generated/*.list
