@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 15:04:52 UTC
+# UPDATED: 2026-06-03 16:39:33 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -407,8 +407,11 @@ DOMAIN-SUFFIX,dp3.qq.com
 DOMAIN-SUFFIX,dpfile.com
 DOMAIN-SUFFIX,dsp.toutiao.com
 DOMAIN-SUFFIX,duclick.baidu.com
+DOMAIN-SUFFIX,duo.com
+DOMAIN-SUFFIX,duofederal.com
 DOMAIN-SUFFIX,duomeng.cn
 DOMAIN-SUFFIX,duomeng.net
+DOMAIN-SUFFIX,duosecurity.com
 DOMAIN-SUFFIX,dvb.pandora.xiaomi.com
 DOMAIN-SUFFIX,e.baidu.com
 DOMAIN-SUFFIX,e.qq.com
@@ -762,6 +765,7 @@ DOMAIN-SUFFIX,setup.icloud.com
 DOMAIN-SUFFIX,sf-express.com
 DOMAIN-SUFFIX,sf-tech.com.cn
 DOMAIN-SUFFIX,shengqugames.com
+DOMAIN-SUFFIX,shibboleth.csun.edu
 DOMAIN-SUFFIX,shuiguo.com
 DOMAIN-SUFFIX,sina.com.cn
 DOMAIN-SUFFIX,sinaimg.cn

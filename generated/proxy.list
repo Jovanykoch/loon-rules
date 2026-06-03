@@ -1,6 +1,6 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 15:04:52 UTC
+# UPDATED: 2026-06-03 16:39:33 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -49,6 +49,9 @@ DOMAIN-SUFFIX,coursera.org
 DOMAIN-SUFFIX,csun.edu
 DOMAIN-SUFFIX,cursor.com
 DOMAIN-SUFFIX,cursor.sh
+DOMAIN-SUFFIX,duo.com
+DOMAIN-SUFFIX,duofederal.com
+DOMAIN-SUFFIX,duosecurity.com
 DOMAIN-SUFFIX,edgeservices.bing.com
 DOMAIN-SUFFIX,edu
 DOMAIN-SUFFIX,edx.org
@@ -125,6 +128,7 @@ DOMAIN-SUFFIX,santag.tech
 DOMAIN-SUFFIX,scdn.co
 DOMAIN-SUFFIX,segment.io
 DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,shibboleth.csun.edu
 DOMAIN-SUFFIX,spokane.edu
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
