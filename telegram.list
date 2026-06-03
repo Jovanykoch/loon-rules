@@ -1,5 +1,5 @@
 # NAME: Telegram IP / ASN
-# AUTHOR: ChatGPT
+# AUTHOR: JovanyKoch
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
 # DESC: Telegram main rule set, giving priority to IP-CIDR / IP-CIDR6 / IP-ASN, with a small number of domain names used for login, link preview and pre-matching.
