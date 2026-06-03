@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-03 09:55:24 UTC
+# UPDATED: 2026-06-03 15:04:52 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,alkalimakersuite-pa.clients6.google.com
@@ -466,7 +466,6 @@ DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,graph-video.facebook.com
 DOMAIN-SUFFIX,graph.facebook.com
 DOMAIN-SUFFIX,graph.instagram.com
-DOMAIN-SUFFIX,graph.org
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,growingio.com
 DOMAIN-SUFFIX,gryphline.com
@@ -798,7 +797,6 @@ DOMAIN-SUFFIX,suning.cn
 DOMAIN-SUFFIX,suning.com
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
-DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,t7z.cupid.iqiyi.com
 DOMAIN-SUFFIX,taboola.com
 DOMAIN-SUFFIX,tajs.qq.com
@@ -814,17 +812,10 @@ DOMAIN-SUFFIX,taptap.com
 DOMAIN-SUFFIX,tbcdn.cn
 DOMAIN-SUFFIX,tcbox.baidu.com
 DOMAIN-SUFFIX,tcss.qq.com
-DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,teads.tv
 DOMAIN-SUFFIX,teams.microsoft.com
-DOMAIN-SUFFIX,telegra.ph
-DOMAIN-SUFFIX,telegram-cdn.org
-DOMAIN-SUFFIX,telegram.me
-DOMAIN-SUFFIX,telegram.org
-DOMAIN-SUFFIX,telegramdownload.com
 DOMAIN-SUFFIX,telemetry.microsoft.com
 DOMAIN-SUFFIX,telemetry.urs.microsoft.com
-DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tencent.com
 DOMAIN-SUFFIX,tenddata.com
 DOMAIN-SUFFIX,tenpay.com
