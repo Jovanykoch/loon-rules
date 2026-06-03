@@ -1,0 +1,93 @@
+name: Surge List CI
+
+on:
+  push:
+    branches:
+      - main
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  validate:
+    name: Validate Surge Files
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout repository files
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Check whether Surge files are empty
+      - name: Check empty files
+        shell: bash
+        run: |
+          set -e
+
+          files=$(find . -maxdepth 1 -type f \( \
+            -name "*.list" -o \
+            -name "*.conf" -o \
+            -name "*.sgmodule" \
+          \))
+
+          if [ -z "$files" ]; then
+            echo "No Surge files found."
+            exit 1
+          fi
+
+          for file in $files; do
+            if [ ! -s "$file" ]; then
+              echo "Empty file found: $file"
+              exit 1
+            fi
+          done
+
+      # Check duplicated rules inside each file
+      - name: Check duplicated rules
+        shell: bash
+        run: |
+          set -e
+
+          duplicate_found=0
+
+          while IFS= read -r file; do
+            echo "Checking $file"
+
+            duplicates=$(grep -vE '^\s*$|^\s*#|^\s*//' "$file" | sort | uniq -d || true)
+
+            if [ -n "$duplicates" ]; then
+              echo "Duplicated rules found in $file:"
+              echo "$duplicates"
+              duplicate_found=1
+            fi
+          done < <(find . -maxdepth 1 -type f \( \
+            -name "*.list" -o \
+            -name "*.conf" -o \
+            -name "*.sgmodule" \
+          \))
+
+          if [ "$duplicate_found" -eq 1 ]; then
+            exit 1
+          fi
+
+      # Check bad Windows line endings
+      - name: Check CRLF line endings
+        shell: bash
+        run: |
+          set -e
+
+          files=$(find . -maxdepth 1 -type f \( \
+            -name "*.list" -o \
+            -name "*.conf" -o \
+            -name "*.sgmodule" \
+          \))
+
+          for file in $files; do
+            if file "$file" | grep -q "CRLF"; then
+              echo "CRLF line ending found: $file"
+              exit 1
+            fi
+          done
