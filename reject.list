@@ -1,6 +1,6 @@
 # Surge reject.list for ads, trackers, telemetry, and noisy beacons
 # Generated: 2026-06-03
-#
+# AUTHOR: JovanyKoch
 # Usage in [Rule]:
 # RULE-SET,https://example.com/reject.list,REJECT
 # or local:
