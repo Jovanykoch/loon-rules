@@ -1,5 +1,5 @@
 # NAME: AI Services
-# AUTHOR: ChatGPT
+# AUTHOR: JovanyKoch
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
 # DESC: Mainstream AI service aggregation rule sets. Suitable for binding to AI/Proxy policy group to avoid being mistakenly diverted by CN/GEOIP.
