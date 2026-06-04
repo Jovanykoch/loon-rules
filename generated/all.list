@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-04 17:38:25 UTC
+# UPDATED: 2026-06-04 17:43:09 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN,apps.apple.com
@@ -43,6 +43,7 @@ DOMAIN-KEYWORD,fbad
 DOMAIN-KEYWORD,fbpixel
 DOMAIN-KEYWORD,gdt.qq
 DOMAIN-KEYWORD,gmail
+DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,iadmat
 DOMAIN-KEYWORD,iadmusic
 DOMAIN-KEYWORD,mobads
