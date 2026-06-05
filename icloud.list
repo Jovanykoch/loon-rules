@@ -1,0 +1,94 @@
+# NAME: iCloud
+# AUTHOR: JovanyKoch
+# UPDATED: 2026-06-05
+# DESCRIPTION: iCloud services for overseas Surge users. Recommended policy: DIRECT.
+
+# iCloud Main
+DOMAIN-SUFFIX,icloud.com
+DOMAIN-SUFFIX,icloud.com.cn
+DOMAIN-SUFFIX,icloud.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloud-isupport.com
+DOMAIN-SUFFIX,icloud-sandbox.com
+DOMAIN-SUFFIX,icloudsecure.com
+
+# iCloud Drive / Documents / Assets
+DOMAIN-SUFFIX,docs.icloud.com
+DOMAIN-SUFFIX,drive.icloud.com
+DOMAIN-SUFFIX,cvws.icloud-content.com
+DOMAIN-SUFFIX,download.icloud.com
+DOMAIN-SUFFIX,upload.icloud.com
+DOMAIN-SUFFIX,share.icloud.com
+DOMAIN-SUFFIX,sharing.icloud.com
+
+# iCloud Photos / Media
+DOMAIN-SUFFIX,photos.icloud.com
+DOMAIN-SUFFIX,cvws.icloud.com
+DOMAIN-SUFFIX,icloud-photos.apple.com
+DOMAIN-SUFFIX,icloudassets.apple.com
+DOMAIN-SUFFIX,icloud-content.com
+
+# iCloud Mail / Contacts / Calendar
+DOMAIN-SUFFIX,mail.icloud.com
+DOMAIN-SUFFIX,pushmail.icloud.com
+DOMAIN-SUFFIX,push-apple.com.akadns.net
+DOMAIN-SUFFIX,contacts.icloud.com
+DOMAIN-SUFFIX,calendar.icloud.com
+DOMAIN-SUFFIX,reminders.icloud.com
+
+# iCloud Keychain / Passwords / Sync
+DOMAIN-SUFFIX,keyvalueservice.icloud.com
+DOMAIN-SUFFIX,ckdatabase.icloud.com
+DOMAIN-SUFFIX,clouddocs.icloud.com
+DOMAIN-SUFFIX,cloudkit.apple.com
+DOMAIN-SUFFIX,icloud-sync.apple.com
+
+# CloudKit
+DOMAIN-SUFFIX,icloud.apple-cloudkit.com
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,api.apple-cloudkit.com
+DOMAIN-SUFFIX,database.apple-cloudkit.com
+DOMAIN-SUFFIX,cdn.apple-cloudkit.com
+
+# Find My / Location
+DOMAIN-SUFFIX,fmipmobile.icloud.com
+DOMAIN-SUFFIX,fmiphone.icloud.com
+DOMAIN-SUFFIX,findmy.icloud.com
+DOMAIN-SUFFIX,findmyiphone.icloud.com
+DOMAIN-SUFFIX,location.icloud.com
+
+# iCloud Private Relay
+DOMAIN-SUFFIX,mask.icloud.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,mask-h2.icloud.com
+DOMAIN-SUFFIX,mask-t.apple-dns.net
+DOMAIN-SUFFIX,mask.apple-dns.net
+
+# Setup / Authentication
+DOMAIN-SUFFIX,setup.icloud.com
+DOMAIN-SUFFIX,auth.icloud.com
+DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
+DOMAIN-SUFFIX,appleid.apple.com
+
+# Backup / Restore
+DOMAIN-SUFFIX,backup.icloud.com
+DOMAIN-SUFFIX,backupws.icloud.com
+DOMAIN-SUFFIX,restore.icloud.com
+
+# iCloud Web Apps
+DOMAIN-SUFFIX,www.icloud.com
+DOMAIN-SUFFIX,account.icloud.com
+DOMAIN-SUFFIX,settings.icloud.com
+DOMAIN-SUFFIX,pages.icloud.com
+DOMAIN-SUFFIX,numbers.icloud.com
+DOMAIN-SUFFIX,keynote.icloud.com
+DOMAIN-SUFFIX,notes.icloud.com
+DOMAIN-SUFFIX,shortcuts.icloud.com
+
+# iCloud CDN / Static
+DOMAIN-SUFFIX,icloud.cdn-apple.com
+DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,icloudstatic.com
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,mzstatic.com
