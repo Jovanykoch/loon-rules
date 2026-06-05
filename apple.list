@@ -2,57 +2,124 @@
 # AUTHOR: JovanyKoch
 # UPDATED: 2026-06-03
 # TYPE: Surge Ruleset
-# DESC: Apple's lightweight rule set adapted to the scenario of returning to China. Only domestic access/low-latency commonly used services are retained, and overseas services such as Apple TV/iCloud Private Relay are not included.
-# NOTE: The rule set is not bound to a policy. Please specify the policy through RULE-SET in the main configuration.
-# Apple China / Mainland Entry
+# DESCRIPTION: Apple services for overseas Surge users. Recommended policy: DIRECT.
 
-DOMAIN-SUFFIX,apple.cn
-DOMAIN-SUFFIX,apple.com.cn
-DOMAIN-SUFFIX,icloud.com.cn
-DOMAIN-SUFFIX,cdn-apple.com
-DOMAIN-SUFFIX,apple-dns.cn
-DOMAIN-SUFFIX,apple-dns.com.cn
-DOMAIN-SUFFIX,applesiri.cn
-DOMAIN-SUFFIX,apple-mapkit.com
-DOMAIN-SUFFIX,apple-maps.cn
-DOMAIN-SUFFIX,apple-ibooks.cn
-
-# Apple Core Services
+# Apple Main
 DOMAIN-SUFFIX,apple.com
-DOMAIN-SUFFIX,icloud.com
-DOMAIN-SUFFIX,me.com
+DOMAIN-SUFFIX,apple.com.cn
+DOMAIN-SUFFIX,apple-cloudkit.com
+DOMAIN-SUFFIX,apple-dns.net
+DOMAIN-SUFFIX,apple-mapkit.com
+DOMAIN-SUFFIX,apple.news
+DOMAIN-SUFFIX,apple-relay.apple.com
+DOMAIN-SUFFIX,apple-support.akadns.net
+DOMAIN-SUFFIX,apple.comscoreresearch.com
+
+# Apple CDN / Static Resources
+DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,cdn-apple.com
+DOMAIN-SUFFIX,applecdn.com
+DOMAIN-SUFFIX,ls.apple.com
+DOMAIN-SUFFIX,store.apple.com
+DOMAIN-SUFFIX,secure.store.apple.com
+
+# App Store / iTunes / Media
+DOMAIN-SUFFIX,itunes.apple.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,appsto.re
 DOMAIN-SUFFIX,mzstatic.com
 DOMAIN-SUFFIX,itunes.com
-DOMAIN-SUFFIX,itunes.apple.com
-DOMAIN-SUFFIX,appsto.re
-DOMAIN-SUFFIX,aaplimg.com
+DOMAIN-SUFFIX,itunesconnect.apple.com
+DOMAIN-SUFFIX,itunes-apple.com.akadns.net
+DOMAIN-SUFFIX,itunes.apple.com.edgekey.net
 
-# App Store / Updates / Assets
-DOMAIN,apps.apple.com
-DOMAIN,itunes.apple.com
-DOMAIN,updates-http.cdn-apple.com
-DOMAIN,updates.cdn-apple.com
-DOMAIN,swcdn.apple.com
-DOMAIN,swdist.apple.com
-DOMAIN,swdownload.apple.com
-DOMAIN,mesu.apple.com
-DOMAIN,gdmf.apple.com
-DOMAIN,ocsp.apple.com
-DOMAIN,valid.apple.com
+# Apple Music / Podcasts / TV
+DOMAIN-SUFFIX,music.apple.com
+DOMAIN-SUFFIX,tv.apple.com
+DOMAIN-SUFFIX,podcasts.apple.com
+DOMAIN-SUFFIX,radio.itunes.apple.com
+DOMAIN-SUFFIX,aod.itunes.apple.com
+DOMAIN-SUFFIX,streamingaudio.itunes.apple.com
+DOMAIN-SUFFIX,video-ssl.itunes.apple.com
 
-# Push / Sync / Account
-DOMAIN-SUFFIX,push-apple.com.akadns.net
-DOMAIN-SUFFIX,push.apple.com
-DOMAIN-SUFFIX,ess.apple.com
-DOMAIN-SUFFIX,identity.apple.com
+# Apple ID / Authentication
+DOMAIN-SUFFIX,appleid.apple.com
 DOMAIN-SUFFIX,idmsa.apple.com
+DOMAIN-SUFFIX,gsa.apple.com
 DOMAIN-SUFFIX,setup.icloud.com
-DOMAIN-SUFFIX,icloud-content.com
+DOMAIN-SUFFIX,setup.apple.com
 
-# Apple CDN / China CDN Common
+# Apple Push Notification Service
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,courier.push.apple.com
+DOMAIN-SUFFIX,gateway.push.apple.com
+DOMAIN-SUFFIX,gateway.icloud.com
+DOMAIN-SUFFIX,api.push.apple.com
+DOMAIN-SUFFIX,ess.apple.com
+
+# Software Update / OS Services
+DOMAIN-SUFFIX,swcdn.apple.com
+DOMAIN-SUFFIX,swdist.apple.com
+DOMAIN-SUFFIX,swdownload.apple.com
+DOMAIN-SUFFIX,swscan.apple.com
+DOMAIN-SUFFIX,updates-http.cdn-apple.com
+DOMAIN-SUFFIX,updates.cdn-apple.com
+DOMAIN-SUFFIX,mesu.apple.com
+DOMAIN-SUFFIX,su.itunes.apple.com
+
+# Captive Portal / Network Detection
+DOMAIN-SUFFIX,captive.apple.com
+DOMAIN-SUFFIX,mask-api.icloud.com
+DOMAIN-SUFFIX,mask.icloud.com
+
+# Certificate / Security / OCSP
+DOMAIN-SUFFIX,ocsp.apple.com
+DOMAIN-SUFFIX,ocsp2.apple.com
+DOMAIN-SUFFIX,valid.apple.com
+DOMAIN-SUFFIX,crl.apple.com
+DOMAIN-SUFFIX,certs.apple.com
+
+# Siri / Dictation / Intelligence
+DOMAIN-SUFFIX,siri.apple.com
+DOMAIN-SUFFIX,assistant.apple.com
+DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,api.smoot.apple.com
+DOMAIN-SUFFIX,apple-relay.cloudflare.com
+
+# Maps / Location
+DOMAIN-SUFFIX,maps.apple.com
+DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe12-ssl.ls.apple.com
+DOMAIN-SUFFIX,gspe19-ssl.ls.apple.com
+DOMAIN-SUFFIX,gsp-ssl.ls.apple.com
+DOMAIN-SUFFIX,configuration.ls.apple.com
+DOMAIN-SUFFIX,directions.ls.apple.com
+DOMAIN-SUFFIX,geo.apple.com
+DOMAIN-SUFFIX,gs-loc.apple.com
+
+# Developer / TestFlight
+DOMAIN-SUFFIX,developer.apple.com
+DOMAIN-SUFFIX,appstoreconnect.apple.com
+DOMAIN-SUFFIX,testflight.apple.com
+DOMAIN-SUFFIX,beta.apple.com
+
+# Apple Pay / Wallet
+DOMAIN-SUFFIX,apple-pay-gateway.apple.com
+DOMAIN-SUFFIX,apple-pay-gateway-cert.apple.com
+DOMAIN-SUFFIX,apple-pay-mtls.apple.com
+DOMAIN-SUFFIX,pass.apple.com
+DOMAIN-SUFFIX,passkit.apple.com
+DOMAIN-SUFFIX,wallet.apple.com
+
+# Diagnostics / Telemetry
+DOMAIN-SUFFIX,metrics.apple.com
+DOMAIN-SUFFIX,metrics.icloud.com
+DOMAIN-SUFFIX,diagnostics.apple.com
+DOMAIN-SUFFIX,radarsubmissions.apple.com
+DOMAIN-SUFFIX,iphonesubmissions.apple.com
+
+# Akamai / Edge aliases often used by Apple
 DOMAIN-SUFFIX,apple.com.edgekey.net
-DOMAIN-SUFFIX,apple.com.akadns.net
-DOMAIN-SUFFIX,apple-support.akadns.net
-DOMAIN-SUFFIX,appldnld.apple.com.edgesuite.net
-DOMAIN-SUFFIX,cdn-apple.com.edgesuite.net
+DOMAIN-SUFFIX,apple.com.edgesuite.net
 DOMAIN-SUFFIX,aaplimg.com.edgekey.net
+DOMAIN-SUFFIX,aaplimg.com.edgesuite.net
