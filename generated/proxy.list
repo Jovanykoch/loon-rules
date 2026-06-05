@@ -1,25 +1,15 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-05 13:55:21 UTC
+# UPDATED: 2026-06-05 13:57:25 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,spotify
-DOMAIN-SUFFIX,account.activedirectory.
 DOMAIN-SUFFIX,api.github.com
-DOMAIN-SUFFIX,blackboard.com
-DOMAIN-SUFFIX,canvaslms.com
 DOMAIN-SUFFIX,cdnjs.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,codeload.github.com
-DOMAIN-SUFFIX,coursera.org
-DOMAIN-SUFFIX,csun.edu
-DOMAIN-SUFFIX,duo.com
-DOMAIN-SUFFIX,duofederal.com
-DOMAIN-SUFFIX,duosecurity.com
-DOMAIN-SUFFIX,edu
-DOMAIN-SUFFIX,edx.org
 DOMAIN-SUFFIX,gist.github.com
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
@@ -29,43 +19,21 @@ DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,huggingface.co
-DOMAIN-SUFFIX,instructure.com
-DOMAIN-SUFFIX,jjc.edu
 DOMAIN-SUFFIX,jkoch14.me
 DOMAIN-SUFFIX,jsdelivr.net
-DOMAIN-SUFFIX,liberty.edu
-DOMAIN-SUFFIX,login.live.com
-DOMAIN-SUFFIX,login.microsoftonline.com
-DOMAIN-SUFFIX,microsoft365.com
-DOMAIN-SUFFIX,microsoftonline-p.com
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,msauth.net
-DOMAIN-SUFFIX,msauthimages.net
-DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,msftauthimages.net
 DOMAIN-SUFFIX,objects.githubusercontent.com
-DOMAIN-SUFFIX,office.com
-DOMAIN-SUFFIX,office365.com
-DOMAIN-SUFFIX,outlook.com
-DOMAIN-SUFFIX,outlook.office.com
-DOMAIN-SUFFIX,outlook.office365.com
 DOMAIN-SUFFIX,private-user-images.githubusercontent.com
 DOMAIN-SUFFIX,raw.githubusercontent.com
 DOMAIN-SUFFIX,release-assets.githubusercontent.com
 DOMAIN-SUFFIX,replicate.com
 DOMAIN-SUFFIX,santag.tech
 DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,shibboleth.csun.edu
-DOMAIN-SUFFIX,spokane.edu
 DOMAIN-SUFFIX,spotify.com
 DOMAIN-SUFFIX,spotifycdn.com
-DOMAIN-SUFFIX,teams.microsoft.com
-DOMAIN-SUFFIX,turnitin.com
 DOMAIN-SUFFIX,unpkg.com
 DOMAIN-SUFFIX,user-images.githubusercontent.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
-DOMAIN-SUFFIX,windowsazure.com
 DOMAIN-SUFFIX,workers.dev
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
