@@ -1,0 +1,95 @@
+# NAME: Music
+# AUTHOR: ChatGPT
+# UPDATED: 2026-06-06
+# DESCRIPTION: QQ Music / Kugou Music / Kuwo Music / NetEase Cloud Music routing rules
+
+# ================================
+# QQ Music
+# ================================
+
+DOMAIN-SUFFIX,y.qq.com
+DOMAIN-SUFFIX,qqmusic.qq.com
+DOMAIN-SUFFIX,music.qq.com
+DOMAIN-SUFFIX,music.tc.qq.com
+DOMAIN-SUFFIX,stream.qqmusic.qq.com
+DOMAIN-SUFFIX,isure.stream.qqmusic.qq.com
+DOMAIN-SUFFIX,aqqmusic.tc.qq.com
+DOMAIN-SUFFIX,dldir1.qq.com
+DOMAIN-SUFFIX,dldir1v6.qq.com
+
+DOMAIN-KEYWORD,qqmusic
+DOMAIN-KEYWORD,tme
+
+# Tencent Music common resource domains
+DOMAIN-SUFFIX,tencentmusic.com
+DOMAIN-SUFFIX,tme.cn
+DOMAIN-SUFFIX,gtimg.cn
+DOMAIN-SUFFIX,gtimg.com
+
+
+# ================================
+# Kugou Music
+# ================================
+
+DOMAIN-SUFFIX,kugou.com
+DOMAIN-SUFFIX,kgimg.com
+DOMAIN-SUFFIX,kugou.net
+DOMAIN-SUFFIX,kugou.cn
+DOMAIN-SUFFIX,listen1.kugou.com
+DOMAIN-SUFFIX,trackercdn.kugou.com
+DOMAIN-SUFFIX,mobilecdn.kugou.com
+DOMAIN-SUFFIX,fs.pc.kugou.com
+DOMAIN-SUFFIX,webfs.kugou.com
+
+DOMAIN-KEYWORD,kugou
+
+
+# ================================
+# Kuwo Music
+# ================================
+
+DOMAIN-SUFFIX,kuwo.cn
+DOMAIN-SUFFIX,kuwo.com
+DOMAIN-SUFFIX,kwcdn.kuwo.cn
+DOMAIN-SUFFIX,kwimg.kuwo.cn
+DOMAIN-SUFFIX,mobi.kuwo.cn
+DOMAIN-SUFFIX,antiserver.kuwo.cn
+DOMAIN-SUFFIX,artistpicserver.kuwo.cn
+DOMAIN-SUFFIX,rich.kuwo.cn
+DOMAIN-SUFFIX,search.kuwo.cn
+
+DOMAIN-KEYWORD,kuwo
+
+
+# ================================
+# NetEase Cloud Music
+# ================================
+
+DOMAIN-SUFFIX,music.163.com
+DOMAIN-SUFFIX,interface.music.163.com
+DOMAIN-SUFFIX,interface3.music.163.com
+DOMAIN-SUFFIX,apm.music.163.com
+DOMAIN-SUFFIX,clientlog.music.163.com
+DOMAIN-SUFFIX,iadmat.nosdn.127.net
+DOMAIN-SUFFIX,music.126.net
+DOMAIN-SUFFIX,netease.im
+DOMAIN-SUFFIX,163yun.com
+
+DOMAIN-KEYWORD,netease
+DOMAIN-KEYWORD,music.163
+DOMAIN-KEYWORD,163music
+
+
+# ================================
+# Common CDN
+# These domains may be used by music apps, but they can also affect unrelated Tencent, NetEase, or Baidu traffic.
+# Enable carefully.
+# ================================
+
+# DOMAIN-SUFFIX,qpic.cn
+# DOMAIN-SUFFIX,qq.com
+# DOMAIN-SUFFIX,126.net
+# DOMAIN-SUFFIX,127.net
+# DOMAIN-SUFFIX,163.com
+# DOMAIN-SUFFIX,bdstatic.com
+# DOMAIN-SUFFIX,baidu.com
