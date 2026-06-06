@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-06 07:46:22 UTC
+# UPDATED: 2026-06-06 07:48:34 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101677,6 +101677,7 @@ DOMAIN-SUFFIX,aliyun.com
 DOMAIN-SUFFIX,aliyuncs.com
 DOMAIN-SUFFIX,amap.com
 DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,antfin.com
 DOMAIN-SUFFIX,aod.itunes.apple.com
 DOMAIN-SUFFIX,api.github.com

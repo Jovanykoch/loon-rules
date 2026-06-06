@@ -1,6 +1,6 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-06 07:46:22 UTC
+# UPDATED: 2026-06-06 07:48:34 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-KEYWORD,amazon
@@ -10,6 +10,7 @@ DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,youtube# NAME: Telegram IP / ASN
 DOMAIN-SUFFIX,amazon.com
+DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,api.github.com
 DOMAIN-SUFFIX,cdnjs.com
 DOMAIN-SUFFIX,cloudflare.com
