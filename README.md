@@ -11,7 +11,7 @@ This repository provides a ready-to-edit Surge profile and several remote rule s
 | `surge-cn.conf` | Main Surge configuration for China mainland network environments. |
 | `openai.list` | Rule set for AI-related services. |
 | `apple.list` | Rule set for Apple-related services. |
-| `work.list` | Rule set for work-related domains or services. |
+| `edu.list` | Rule set for work-related domains or services. |
 | `telegram.list` | Rule set for Telegram traffic. |
 | `proxy.list` | General proxy rule set. |
 | `cn.list` | China mainland direct-connection rule set. |
@@ -46,7 +46,7 @@ The main profile references these remote rule sets:
 ```ini
 RULE-SET,https://jkoch14.me/surge-list/openai.list,Proxy
 RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/work.list,Proxy
+RULE-SET,https://jkoch14.me/surge-list/edu.list,Proxy
 RULE-SET,https://jkoch14.me/surge-list/reject,REJECT
 RULE-SET,https://jkoch14.me/surge-list/cn.list,DIRECT
 RULE-SET,https://jkoch14.me/surge-list/telegram.list,Proxy
@@ -86,7 +86,7 @@ You can also use only the rule sets and bind them to your own policy groups:
 [Rule]
 RULE-SET,https://jkoch14.me/surge-list/openai.list,AI
 RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/work.list,Work
+RULE-SET,https://jkoch14.me/surge-list/edu.list,Work
 RULE-SET,https://jkoch14.me/surge-list/telegram.list,Telegram
 RULE-SET,https://jkoch14.me/surge-list/proxy.list,Proxy
 RULE-SET,https://jkoch14.me/surge-list/cn.list,DIRECT
