@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-06 06:34:01 UTC
+# UPDATED: 2026-06-06 07:11:28 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -98084,7 +98084,6 @@
 .www-us-apple.com
 .www-vrbank.de
 .www-wps-cn.com
-.www.0.wedding
 .www.0123movie.is
 .www.0577go.com
 .www.11exam.com
@@ -101635,6 +101634,7 @@ DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,hotmail
 DOMAIN-KEYWORD,spotify
+DOMAIN-KEYWORD,youtube.www.0.wedding
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,10086.com
