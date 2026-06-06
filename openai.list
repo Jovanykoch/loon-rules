@@ -24,16 +24,6 @@ DOMAIN-SUFFIX,chatgpt.livekit.cloud
 DOMAIN-SUFFIX,host.livekit.cloud
 DOMAIN-SUFFIX,turn.livekit.cloud
 
-# CSUN / school SSO
-DOMAIN-SUFFIX,csun.edu
-
-# Microsoft login / university SSO
-DOMAIN-SUFFIX,login.microsoftonline.com
-DOMAIN-SUFFIX,microsoftonline.com
-DOMAIN-SUFFIX,msauth.net
-DOMAIN-SUFFIX,msftauth.net
-DOMAIN-SUFFIX,msftidentity.com
-
 # Google login fallback
 DOMAIN-SUFFIX,accounts.google.com
 DOMAIN-SUFFIX,googleusercontent.com
