@@ -9,7 +9,7 @@ This repository provides a ready-to-edit Surge profile and several remote rule s
 | File | Description |
 | --- | --- |
 | `surge-cn.conf` | Main Surge configuration for China mainland network environments. |
-| `ai.list` | Rule set for AI-related services. |
+| `openai.list` | Rule set for AI-related services. |
 | `apple.list` | Rule set for Apple-related services. |
 | `work.list` | Rule set for work-related domains or services. |
 | `telegram.list` | Rule set for Telegram traffic. |
@@ -44,7 +44,7 @@ The profile uses public DNS servers and DoH endpoints, disables IPv6 by default,
 The main profile references these remote rule sets:
 
 ```ini
-RULE-SET,https://jkoch14.me/surge-list/ai.list,Proxy
+RULE-SET,https://jkoch14.me/surge-list/openai.list,Proxy
 RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
 RULE-SET,https://jkoch14.me/surge-list/work.list,Proxy
 RULE-SET,https://jkoch14.me/surge-list/reject,REJECT
@@ -84,7 +84,7 @@ You can also use only the rule sets and bind them to your own policy groups:
 
 ```ini
 [Rule]
-RULE-SET,https://jkoch14.me/surge-list/ai.list,AI
+RULE-SET,https://jkoch14.me/surge-list/openai.list,AI
 RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
 RULE-SET,https://jkoch14.me/surge-list/work.list,Work
 RULE-SET,https://jkoch14.me/surge-list/telegram.list,Telegram
