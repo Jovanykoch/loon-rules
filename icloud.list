@@ -87,7 +87,6 @@ DOMAIN-SUFFIX,shortcuts.icloud.com
 
 # iCloud CDN / Static
 DOMAIN-SUFFIX,icloud.cdn-apple.com
-DOMAIN-SUFFIX,icloud-content.com
 DOMAIN-SUFFIX,icloudstatic.com
 DOMAIN-SUFFIX,aaplimg.com
 DOMAIN-SUFFIX,mzstatic.com
