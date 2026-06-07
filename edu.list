@@ -1,6 +1,6 @@
 # CSUN / School Email + Microsoft 365 SSO Stable
 # Surge Rule Set
-# 建议绑定到固定美国节点，例如 US-SFO-01 / US-LAX-01
+# It is recommended to bind to a fixed U.S. node, such as US-SFO-01 / US-LAX-01
 
 # School domains
 DOMAIN-SUFFIX,csun.edu
@@ -64,3 +64,8 @@ DOMAIN-SUFFIX,blackboard.com
 DOMAIN-SUFFIX,turnitin.com
 DOMAIN-SUFFIX,coursera.org
 DOMAIN-SUFFIX,edx.org
+
+DOMAIN-KEYWORD,csun
+DOMAIN-KEYWORD,jjc
+DOMAIN-KEYWORD,spokane
+
