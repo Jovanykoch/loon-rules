@@ -123,3 +123,16 @@ DOMAIN-SUFFIX,apple.com.edgekey.net
 DOMAIN-SUFFIX,apple.com.edgesuite.net
 DOMAIN-SUFFIX,aaplimg.com.edgekey.net
 DOMAIN-SUFFIX,aaplimg.com.edgesuite.net
+
+# Apple Mail
+DOMAIN-SUFFIX,mail.me.com
+DOMAIN-SUFFIX,mail.icloud.com
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,imap.mail.me.com
+DOMAIN-SUFFIX,imap.mail.icloud.com
+DOMAIN-SUFFIX,imap.mail.icloud.com.cn
+DOMAIN-SUFFIX,smtp.mail.me.com
+DOMAIN-SUFFIX,smtp.mail.icloud.com
+DOMAIN-SUFFIX,smtp.mail.icloud.com.cn
+DOMAIN-SUFFIX,push.apple.com
+DOMAIN-SUFFIX,courier.push.apple.com
