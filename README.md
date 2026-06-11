@@ -1,6 +1,6 @@
 # 🚀 surge-list
 
-
+Oᴘᴛɪᴍɪᴢᴇᴅ ʀᴜʟᴇ sᴇᴛs ғᴏʀ **Sᴜʀɢᴇ**.
 
 Optimized rule sets for **Surge**.
 
