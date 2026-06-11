@@ -1,21 +1,21 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 14:37:40 UTC
+# UPDATED: 2026-06-11 14:52:42 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,hotmail
+DOMAIN-KEYWORD,hotmail# NAME: Telegram IP / ASN
 DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,youtube# NAME: Telegram IP / ASN
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 DOMAIN-SUFFIX,api.github.com
 DOMAIN-SUFFIX,cdnjs.com
 DOMAIN-SUFFIX,cloudflare.com
 DOMAIN-SUFFIX,codeload.github.com
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,gist.github.com
 DOMAIN-SUFFIX,github.com
 DOMAIN-SUFFIX,github.io
@@ -23,7 +23,10 @@ DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,jkoch14.me
 DOMAIN-SUFFIX,jsdelivr.net
@@ -41,6 +44,7 @@ DOMAIN-SUFFIX,user-images.githubusercontent.com
 DOMAIN-SUFFIX,vercel.app
 DOMAIN-SUFFIX,vercel.com
 DOMAIN-SUFFIX,workers.dev
+DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 IP-ASN,211157,no-resolve

@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 14:37:40 UTC
+# UPDATED: 2026-06-11 14:52:42 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101634,9 +101634,8 @@ DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
-DOMAIN-KEYWORD,hotmail
+DOMAIN-KEYWORD,hotmail.www.0.wedding
 DOMAIN-KEYWORD,spotify
-DOMAIN-KEYWORD,youtube.www.0.wedding
 DOMAIN-SUFFIX,10010.com
 DOMAIN-SUFFIX,10086.cn
 DOMAIN-SUFFIX,10086.com
@@ -101798,6 +101797,7 @@ DOMAIN-SUFFIX,gaokao.cn
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,gateway.push.apple.com
 DOMAIN-SUFFIX,geo.apple.com
+DOMAIN-SUFFIX,ggpht.com
 DOMAIN-SUFFIX,giocdn.com
 DOMAIN-SUFFIX,gist.github.com
 DOMAIN-SUFFIX,gitcode.com
@@ -101809,6 +101809,8 @@ DOMAIN-SUFFIX,githubassets.com
 DOMAIN-SUFFIX,githubusercontent.com
 DOMAIN-SUFFIX,gmail.com
 DOMAIN-SUFFIX,google.com
+DOMAIN-SUFFIX,googleapis.com
+DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gov.cn
 DOMAIN-SUFFIX,gryphline.com
@@ -101818,6 +101820,7 @@ DOMAIN-SUFFIX,gsp-ssl.ls.apple.com
 DOMAIN-SUFFIX,gspe1-ssl.ls.apple.com
 DOMAIN-SUFFIX,gspe12-ssl.ls.apple.com
 DOMAIN-SUFFIX,gspe19-ssl.ls.apple.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-SUFFIX,gtimg.com
 DOMAIN-SUFFIX,hao123.com
 DOMAIN-SUFFIX,hdslb.com
@@ -102065,6 +102068,7 @@ DOMAIN-SUFFIX,yeah.net
 DOMAIN-SUFFIX,ykimg.com
 DOMAIN-SUFFIX,yostar.cn
 DOMAIN-SUFFIX,youku.com
+DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,youtube.com
 DOMAIN-SUFFIX,ytimg.com
 DOMAIN-SUFFIX,yto.net.cn
