@@ -76,13 +76,14 @@ You can also use only the rule sets and bind them to your own policy groups:
 
 ```ini
 [Rule]
-RULE-SET,https://jkoch14.me/surge-list/openai.list,AI
-RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/edu.list,Work
-RULE-SET,https://jkoch14.me/surge-list/telegram.list,Telegram
-RULE-SET,https://jkoch14.me/surge-list/proxy.list,Proxy
-RULE-SET,https://jkoch14.me/surge-list/cn.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/reject,REJECT
+RULE-SET,https://jovanykoch.github.io/surge-list/openai.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/apple.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/icloud.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/edu.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/adblock.list,REJECT
+RULE-SET,https://jovanykoch.github.io/surge-list/cn.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/telegram.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/proxy.list,PROXY
 GEOIP,CN,DIRECT
 FINAL,DIRECT
 ```
@@ -91,10 +92,7 @@ Example policy groups:
 
 ```ini
 [Proxy Group]
-Proxy = select, HK, JP, SG, US, DIRECT
-AI = select, US, SG, JP, Proxy
-Telegram = select, SG, JP, HK, Proxy
-Work = select, Proxy, DIRECT
+PROXY = select, HK, JP, SG, US, DIRECT
 ```
 
 ## Notes
