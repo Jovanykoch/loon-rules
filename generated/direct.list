@@ -1,6 +1,6 @@
 # NAME: direct.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 13:58:33 UTC
+# UPDATED: 2026-06-11 14:06:58 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-SUFFIX,10010.com
@@ -119,7 +119,6 @@ DOMAIN-SUFFIX,cntv.cn
 DOMAIN-SUFFIX,coding.net
 DOMAIN-SUFFIX,coloros.com
 DOMAIN-SUFFIX,configuration.ls.apple.com
-DOMAIN-SUFFIX,courier.push.apple.com
 DOMAIN-SUFFIX,courier.push.apple.com# Surge cn.list for Back-to-China routing
 DOMAIN-SUFFIX,crl.apple.com
 DOMAIN-SUFFIX,csdn.net

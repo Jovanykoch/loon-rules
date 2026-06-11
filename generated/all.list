@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 13:58:34 UTC
+# UPDATED: 2026-06-11 14:06:58 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101759,7 +101759,6 @@ DOMAIN-SUFFIX,codeload.github.com
 DOMAIN-SUFFIX,coding.net
 DOMAIN-SUFFIX,coloros.com
 DOMAIN-SUFFIX,configuration.ls.apple.com
-DOMAIN-SUFFIX,courier.push.apple.com
 DOMAIN-SUFFIX,courier.push.apple.com# Surge cn.list for Back-to-China routing
 DOMAIN-SUFFIX,crl.apple.com
 DOMAIN-SUFFIX,csdn.net
