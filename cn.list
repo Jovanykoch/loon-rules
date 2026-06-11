@@ -351,6 +351,10 @@ DOMAIN-SUFFIX,doh.pub
 DOMAIN-SUFFIX,ntp.org.cn
 DOMAIN-SUFFIX,cn.ntp.org.cn
 
+# E-Commerce
+DOMAIN-SUFFIX,ecombdapi.com
+
+
 # China IP fallback
 IP-CIDR,1.0.1.0/24
 IP-CIDR,1.0.2.0/23
