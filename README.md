@@ -2,9 +2,7 @@
 
 Oᴘᴛɪᴍɪᴢᴇᴅ ʀᴜʟᴇ sᴇᴛs ғᴏʀ **Sᴜʀɢᴇ**.
 
-Optimized rule sets for **Surge**.
-
-Lightweight • Fast • Continuously Updated
+Lɪɢʜᴛᴡᴇɪɢʜᴛ • Fᴀsᴛ • Cᴏɴᴛɪɴᴜᴏᴜsʟʏ Uᴘᴅᴀᴛᴇᴅ
 
 [![Stars](https://img.shields.io/github/stars/Jovanykoch/Loon?style=flat-square)](https://github.com/Jovanykoch/Loon/stargazers)
 [![License](https://img.shields.io/github/license/Jovanykoch/Loon?style=flat-square)](LICENSE)
