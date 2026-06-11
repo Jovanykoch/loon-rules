@@ -12,8 +12,6 @@ Lɪɢʜᴛᴡᴇɪɢʜᴛ • Fᴀsᴛ • Cᴏɴᴛɪɴᴜᴏᴜsʟʏ Uᴘᴅ�
 
 A ᴘᴇʀsᴏɴᴀʟ Sᴜʀɢᴇ ᴄᴏɴғɪɢᴜʀᴀᴛɪᴏɴ ᴀɴᴅ ʀᴜʟᴇ-sᴇᴛ ᴄᴏʟʟᴇᴄᴛɪᴏɴ ғᴏʀ ᴅᴀɪʟʏ ᴜsᴇ.
 
-A personal Surge configuration and rule-set collection for daily use.
-
 <div align="center">
 
 ---
