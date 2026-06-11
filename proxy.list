@@ -37,6 +37,7 @@ DOMAIN-SUFFIX,santag.tech
 DOMAIN-SUFFIX,amazon.com
 DOMAIN-SUFFIX,amazonaws.com
 
+DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,spotify
 DOMAIN-KEYWORD,amazon
 DOMAIN-KEYWORD,gmail
