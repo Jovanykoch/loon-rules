@@ -9,6 +9,7 @@ DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,oaistatic.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,chatgpt
 
 # OpenAI auth / anti-abuse / feature gate
 DOMAIN-SUFFIX,auth0.com
