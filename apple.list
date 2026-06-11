@@ -50,7 +50,6 @@ DOMAIN-SUFFIX,setup.icloud.com
 DOMAIN-SUFFIX,setup.apple.com
 
 # Apple Push Notification Service
-DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,gateway.push.apple.com
 DOMAIN-SUFFIX,gateway.icloud.com
 DOMAIN-SUFFIX,api.push.apple.com
