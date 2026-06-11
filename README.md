@@ -4,6 +4,24 @@ A personal Surge configuration and rule-set collection for daily use.
 
 This repository provides a ready-to-edit Surge profile and several remote rule sets for routing traffic by category, including AI services, Apple services, Telegram, China mainland traffic, proxy traffic, work-related domains, and rejection rules.
 
+<div align="center">
+
+# 🚀 Surge Rules
+
+
+
+Optimized rule sets for **Surge**.
+
+Lightweight • Fast • Continuously Updated
+
+[![Stars](https://img.shields.io/github/stars/Jovanykoch/Loon?style=flat-square)](https://github.com/Jovanykoch/Loon/stargazers)
+[![License](https://img.shields.io/github/license/Jovanykoch/Loon?style=flat-square)](LICENSE)
+[![Last Commit](https://img.shields.io/github/last-commit/Jovanykoch/Loon?style=flat-square)](https://github.com/Jovanykoch/Loon/commits/main)
+
+</div>
+
+---
+
 ## Files
 
 | File | Description |
