@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 13:26:06 UTC
+# UPDATED: 2026-06-11 13:58:34 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101760,6 +101760,7 @@ DOMAIN-SUFFIX,coding.net
 DOMAIN-SUFFIX,coloros.com
 DOMAIN-SUFFIX,configuration.ls.apple.com
 DOMAIN-SUFFIX,courier.push.apple.com
+DOMAIN-SUFFIX,courier.push.apple.com# Surge cn.list for Back-to-China routing
 DOMAIN-SUFFIX,crl.apple.com
 DOMAIN-SUFFIX,csdn.net
 DOMAIN-SUFFIX,ctrip.com
@@ -101838,6 +101839,9 @@ DOMAIN-SUFFIX,icourse163.org
 DOMAIN-SUFFIX,idmsa.apple.com
 DOMAIN-SUFFIX,idqqimg.com
 DOMAIN-SUFFIX,iesdouyin.com
+DOMAIN-SUFFIX,imap.mail.icloud.com
+DOMAIN-SUFFIX,imap.mail.icloud.com.cn
+DOMAIN-SUFFIX,imap.mail.me.com
 DOMAIN-SUFFIX,iphonesubmissions.apple.com
 DOMAIN-SUFFIX,iqiyi.com
 DOMAIN-SUFFIX,iqiyipic.com
@@ -101878,6 +101882,9 @@ DOMAIN-SUFFIX,lufax.com
 DOMAIN-SUFFIX,ly.com
 DOMAIN-SUFFIX,mafengwo.cn
 DOMAIN-SUFFIX,mafengwo.net
+DOMAIN-SUFFIX,mail.icloud.com
+DOMAIN-SUFFIX,mail.icloud.com.cn
+DOMAIN-SUFFIX,mail.me.com
 DOMAIN-SUFFIX,maoyan.com
 DOMAIN-SUFFIX,maps.apple.com
 DOMAIN-SUFFIX,mask-api.icloud.com
@@ -101963,6 +101970,9 @@ DOMAIN-SUFFIX,sinaimg.cn
 DOMAIN-SUFFIX,siri.apple.com
 DOMAIN-SUFFIX,sm.cn
 DOMAIN-SUFFIX,smoot.apple.com
+DOMAIN-SUFFIX,smtp.mail.icloud.com
+DOMAIN-SUFFIX,smtp.mail.icloud.com.cn
+DOMAIN-SUFFIX,smtp.mail.me.com
 DOMAIN-SUFFIX,smzdm.com
 DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,so.com
