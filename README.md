@@ -1,12 +1,4 @@
-# Surge List
-
-A personal Surge configuration and rule-set collection for daily use.
-
-This repository provides a ready-to-edit Surge profile and several remote rule sets for routing traffic by category, including AI services, Apple services, Telegram, China mainland traffic, proxy traffic, work-related domains, and rejection rules.
-
-<div align="center">
-
-# 🚀 Surge Rules
+# 🚀 surge-list
 
 
 
