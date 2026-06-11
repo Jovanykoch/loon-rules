@@ -44,13 +44,15 @@ The profile uses public DNS servers and DoH endpoints, disables IPv6 by default,
 The main profile references these remote rule sets:
 
 ```ini
-RULE-SET,https://jkoch14.me/surge-list/openai.list,Proxy
-RULE-SET,https://jkoch14.me/surge-list/apple.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/edu.list,Proxy
-RULE-SET,https://jkoch14.me/surge-list/reject,REJECT
-RULE-SET,https://jkoch14.me/surge-list/cn.list,DIRECT
-RULE-SET,https://jkoch14.me/surge-list/telegram.list,Proxy
-RULE-SET,https://jkoch14.me/surge-list/proxy.list,Proxy
+RULE-SET,https://jovanykoch.github.io/surge-list/openai.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/apple.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/icloud.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/edu.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/adblock.list,REJECT
+RULE-SET,https://jovanykoch.github.io/surge-list/cn.list,DIRECT
+RULE-SET,https://jovanykoch.github.io/surge-list/telegram.list,PROXY
+RULE-SET,https://jovanykoch.github.io/surge-list/proxy.list,PROXY
+
 ```
 
 Default behavior:
