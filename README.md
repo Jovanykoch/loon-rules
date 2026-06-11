@@ -70,16 +70,6 @@ Default behavior:
 
 ## Usage
 
-### Use the full profile
-
-Import the main profile into Surge:
-
-```text
-https://jkoch14.me/surge-list/surge-cn.conf
-```
-
-Then edit the proxy section according to your own node subscription or local proxy setup.
-
 ### Use rule sets in your own profile
 
 You can also use only the rule sets and bind them to your own policy groups:
