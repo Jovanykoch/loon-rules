@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 15:44:42 UTC
+# UPDATED: 2026-06-11 15:48:38 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101666,6 +101666,7 @@ DOMAIN-SUFFIX,aaplimg.com.edgekey.net
 DOMAIN-SUFFIX,aaplimg.com.edgesuite.net
 DOMAIN-SUFFIX,abchina.com
 DOMAIN-SUFFIX,ac.cn
+DOMAIN-SUFFIX,akamai.net
 DOMAIN-SUFFIX,alibaba.com
 DOMAIN-SUFFIX,alibabacloud.com
 DOMAIN-SUFFIX,alicdn.com
