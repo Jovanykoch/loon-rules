@@ -44,6 +44,7 @@ The profile uses public DNS servers and DoH endpoints, disables IPv6 by default,
 The main profile references these remote rule sets:
 
 ```ini
+RULE-SET,https://jovanykoch.github.io/surge-list/lan.list,DIRECT
 RULE-SET,https://jovanykoch.github.io/surge-list/openai.list,PROXY
 RULE-SET,https://jovanykoch.github.io/surge-list/apple.list,DIRECT
 RULE-SET,https://jovanykoch.github.io/surge-list/icloud.list,DIRECT
@@ -76,6 +77,7 @@ You can also use only the rule sets and bind them to your own policy groups:
 
 ```ini
 [Rule]
+RULE-SET,https://jovanykoch.github.io/surge-list/lan.list,DIRECT
 RULE-SET,https://jovanykoch.github.io/surge-list/openai.list,PROXY
 RULE-SET,https://jovanykoch.github.io/surge-list/apple.list,DIRECT
 RULE-SET,https://jovanykoch.github.io/surge-list/icloud.list,DIRECT
