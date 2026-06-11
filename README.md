@@ -15,7 +15,7 @@ This repository provides a ready-to-edit Surge profile and several remote rule s
 | `telegram.list` | Rule set for Telegram traffic. |
 | `proxy.list` | General proxy rule set. |
 | `cn.list` | China mainland direct-connection rule set. |
-| `reject` | Rejection / blocking rule set. |
+| `adblock.list` | Rejection / blocking rule set. |
 
 ## Main Profile
 
