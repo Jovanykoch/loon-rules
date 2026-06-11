@@ -1,6 +1,6 @@
 # NAME: all.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 13:20:09 UTC
+# UPDATED: 2026-06-11 13:21:18 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 .0-0.fr
@@ -101631,6 +101631,7 @@
 .zzzperform.com
 .zzztquhwysxyu.website
 DOMAIN-KEYWORD,amazon
+DOMAIN-KEYWORD,github
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,hotmail
