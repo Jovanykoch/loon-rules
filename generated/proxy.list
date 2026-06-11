@@ -1,6 +1,6 @@
 # NAME: proxy.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-11 15:05:28 UTC
+# UPDATED: 2026-06-11 15:44:42 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-KEYWORD,amazon
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,googleapis.com
 DOMAIN-SUFFIX,googleusercontent.com
 DOMAIN-SUFFIX,googlevideo.com
 DOMAIN-SUFFIX,gstatic.com
+DOMAIN-SUFFIX,hostuno.com
 DOMAIN-SUFFIX,huggingface.co
 DOMAIN-SUFFIX,jkoch14.me
 DOMAIN-SUFFIX,jsdelivr.net
