@@ -1,6 +1,6 @@
 # NAME: direct.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-12 22:49:12 UTC
+# UPDATED: 2026-06-12 22:55:50 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-SUFFIX,10010.com
@@ -403,5 +403,6 @@ DOMAIN-SUFFIX,yundaex.com
 DOMAIN-SUFFIX,zhihu.com
 DOMAIN-SUFFIX,zhihuishu.com
 DOMAIN-SUFFIX,zhimg.com
+DOMAIN-SUFFIX,zjcdn.com
 DOMAIN-SUFFIX,zte.com.cn
 DOMAIN-SUFFIX,zto.com
