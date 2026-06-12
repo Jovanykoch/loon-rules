@@ -1,6 +1,6 @@
 # NAME: direct.list
 # AUTHOR: Jovanykoch
-# UPDATED: 2026-06-12 20:57:55 UTC
+# UPDATED: 2026-06-12 21:08:30 UTC
 # SOURCE: https://github.com/Jovanykoch/surge-list
 
 DOMAIN-SUFFIX,10010.com
@@ -285,7 +285,6 @@ DOMAIN-SUFFIX,pingan.com.cn
 DOMAIN-SUFFIX,podcasts.apple.com
 DOMAIN-SUFFIX,pps.tv
 DOMAIN-SUFFIX,psbc.com
-DOMAIN-SUFFIX,pstatp.com
 DOMAIN-SUFFIX,push.apple.com
 DOMAIN-SUFFIX,qcloud.com
 DOMAIN-SUFFIX,qiniu.com
@@ -316,7 +315,6 @@ DOMAIN-SUFFIX,smtp.mail.icloud.com
 DOMAIN-SUFFIX,smtp.mail.icloud.com.cn
 DOMAIN-SUFFIX,smtp.mail.me.com
 DOMAIN-SUFFIX,smzdm.com
-DOMAIN-SUFFIX,snssdk.com
 DOMAIN-SUFFIX,so.com
 DOMAIN-SUFFIX,sogou.com
 DOMAIN-SUFFIX,sogoucdn.com
