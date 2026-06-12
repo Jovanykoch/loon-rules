@@ -1,0 +1,55 @@
+# Meta Platforms
+
+# Meta Core
+DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,meta.net
+DOMAIN-SUFFIX,meta.org
+
+# Facebook
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,facebook.net
+DOMAIN-SUFFIX,fb.com
+DOMAIN-SUFFIX,fb.me
+DOMAIN-SUFFIX,fb.watch
+DOMAIN-SUFFIX,fbsbx.com
+DOMAIN-SUFFIX,fbcdn.net
+DOMAIN-SUFFIX,facebookmail.com
+DOMAIN-SUFFIX,messenger.com
+
+# Instagram
+DOMAIN-SUFFIX,instagram.com
+DOMAIN-SUFFIX,cdninstagram.com
+DOMAIN-SUFFIX,ig.me
+
+# Threads
+DOMAIN-SUFFIX,threads.net
+
+# WhatsApp
+DOMAIN-SUFFIX,whatsapp.com
+DOMAIN-SUFFIX,whatsapp.net
+
+# Oculus / Quest
+DOMAIN-SUFFIX,oculus.com
+DOMAIN-SUFFIX,oculuscdn.com
+DOMAIN-SUFFIX,oculusvr.com
+DOMAIN-SUFFIX,quest.com
+
+# Workplace
+DOMAIN-SUFFIX,workplace.com
+DOMAIN-SUFFIX,workplaceusercontent.com
+
+# Meta CDN & Static Assets
+DOMAIN-SUFFIX,tfbnw.net
+DOMAIN-SUFFIX,xx.fbcdn.net
+DOMAIN-SUFFIX,static.xx.fbcdn.net
+DOMAIN-SUFFIX,scontent.xx.fbcdn.net
+
+# Meta API Endpoints
+DOMAIN,graph.facebook.com
+DOMAIN,b-graph.facebook.com
+DOMAIN,api.facebook.com
+DOMAIN,edge-mqtt.facebook.com
+DOMAIN,mqtt.facebook.com
+DOMAIN,upload.facebook.com
+DOMAIN,lookaside.facebook.com
